@@ -6,6 +6,7 @@
 //  Copyright (c) 2014 Bloc. All rights reserved.
 //
 
+// new
 #import "BLCAppDelegate.h"
 
 @implementation BLCAppDelegate
