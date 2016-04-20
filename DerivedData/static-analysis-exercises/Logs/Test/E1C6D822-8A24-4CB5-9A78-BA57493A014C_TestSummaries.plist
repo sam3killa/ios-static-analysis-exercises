@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>1700</integer>
+			<key>Identifier</key>
+			<string>48A6F2A4-D679-5C88-A3EF-9FF26B729AA6</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>ModelCode</key>
+			<string>MacBookAir6,2</string>
+			<key>ModelName</key>
+			<string>MacBook Air</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookair-13-unibody</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.11.4</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.11.4 (15E65)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>2</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>OS X</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>8192</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 6s Plus</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>20F619F4-E46D-473C-A7D2-9388BE9D5736</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone8,2</string>
+			<key>ModelName</key>
+			<string>iPhone 6s Plus</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-6s-plus-b9b7ba</string>
+			<key>Name</key>
+			<string>iPhone 6s Plus</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>9.3</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>9.3 (13E230)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator9.3</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 9.3</string>
+			<key>OperatingSystemVersion</key>
+			<string>9.3</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>static-analysis-exercises.xcodeproj</string>
+			<key>TargetName</key>
+			<string>static-analysis-exercisesTests</string>
+			<key>TestName</key>
+			<string>static-analysis-exercisesTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>FailureSummaries</key>
+									<array>
+										<dict>
+											<key>FileName</key>
+											<string>/Users/samshih/Desktop/BLOC IO PROJECTS/ios-static-analysis-exercises/static-analysis-exercisesTests/static_analysis_exercisesTests.m</string>
+											<key>LineNumber</key>
+											<integer>31</integer>
+											<key>Message</key>
+											<string>failed - No implementation for "-[static_analysis_exercisesTests testExample]"</string>
+											<key>PerformanceFailure</key>
+											<false/>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>static_analysis_exercisesTests/testExample</string>
+									<key>TestName</key>
+									<string>testExample</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummary</string>
+									<key>TestStatus</key>
+									<string>Failure</string>
+									<key>TestSummaryGUID</key>
+									<string>FB0BCD98-6557-46BF-B135-C3C6A78BC643</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>static_analysis_exercisesTests</string>
+							<key>TestName</key>
+							<string>static_analysis_exercisesTests</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
